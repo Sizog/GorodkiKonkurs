@@ -6,6 +6,9 @@ public class TeleportPointCanvas : MonoBehaviour
 {
     [SerializeField] private GameObject mainPanel;
     [SerializeField] private BuildingsSpawner buildingsSpawner;
+    [SerializeField] private GameObject spawnBatCapsule;
+    [SerializeField] private GameObject spawnBatPoint;
+    [SerializeField] private GameObject currentBatCapsule;
 
     void Start()
     {
@@ -21,5 +24,17 @@ public class TeleportPointCanvas : MonoBehaviour
     {
         buildingsSpawner.SpawnBuilding(index);
         mainPanel.SetActive(false);
+    }
+
+    public void SpawnBatCapsule()
+    {
+        if (spawnBatCapsule != null && spawnBatPoint != null)
+        {
+            if (currentBatCapsule != null)
+            {
+                Destroy(currentBatCapsule);
+            }
+            currentBatCapsule = Instantiate(spawnBatCapsule, spawnBatPoint.transform.position, spawnBatPoint.transform.rotation);
+        }
     }
 }
