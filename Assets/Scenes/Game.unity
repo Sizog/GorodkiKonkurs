@@ -2378,6 +2378,7 @@ MonoBehaviour:
   - {fileID: 2662601409259585568, guid: 81fc3f34edecb3b469bb593cd0f02e52, type: 3}
   - {fileID: 8078618191124311531, guid: 1607e92c01a687643bb031f7a37105a4, type: 3}
   - {fileID: 7503091510648620370, guid: ba026e4416338c44fbfc8bf0d09bfe12, type: 3}
+  - {fileID: 8078618191124311531, guid: f492102c93010eb4da6f1859662c8168, type: 3}
   currentBuilding: {fileID: 0}
 --- !u!4 &335879789
 Transform:
@@ -14539,6 +14540,18 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 191196380491760528, guid: 9a8f80bf73d8c8d43b8a8b1ceb8cb6a7, type: 3}
+      propertyPath: m_Padding.m_Top
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 191196380491760528, guid: 9a8f80bf73d8c8d43b8a8b1ceb8cb6a7, type: 3}
+      propertyPath: m_Padding.m_Left
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 191196380491760528, guid: 9a8f80bf73d8c8d43b8a8b1ceb8cb6a7, type: 3}
+      propertyPath: m_Padding.m_Right
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 656047755929385227, guid: 9a8f80bf73d8c8d43b8a8b1ceb8cb6a7, type: 3}
       propertyPath: buildingsSpawner
       value: 
@@ -14658,6 +14671,10 @@ PrefabInstance:
     - target: {fileID: 6878064966374619007, guid: 9a8f80bf73d8c8d43b8a8b1ceb8cb6a7, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115383083611302151, guid: 9a8f80bf73d8c8d43b8a8b1ceb8cb6a7, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7947027041882723484, guid: 9a8f80bf73d8c8d43b8a8b1ceb8cb6a7, type: 3}
       propertyPath: m_AnchorMax.y
