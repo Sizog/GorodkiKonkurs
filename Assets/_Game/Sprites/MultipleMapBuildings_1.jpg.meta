@@ -278,22 +278,106 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MultipleMapBuildings_8
+      name: MultipleMapBuildings_1_0
       rect:
         serializedVersion: 2
-        x: 432
-        y: 413
-        width: 265
-        height: 126
+        x: 442
+        y: 251
+        width: 209
+        height: 123
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cb988ffe6b35a94cb5f9cf5a252374e
-      internalID: 444608109
+      spriteID: cc7190b18ebe94342ab97c51a9557b28
+      internalID: -26901932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MultipleMapBuildings_1_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 236
+        width: 219
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaca6a7f3419c204ab5047e51e395eeb
+      internalID: 1875459594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MultipleMapBuildings_1_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 197
+        width: 247
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08e6f8acc05cbd448b6b900f08bbf2f
+      internalID: 436154376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MultipleMapBuildings_1_3
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 287
+        width: 203
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93548d011e6e7f343959a0df8250b240
+      internalID: 557423443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MultipleMapBuildings_1_4
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 411
+        width: 225
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ce2361eb50cb749b349b7c2505513a
+      internalID: 560255181
       vertices: []
       indices: 
       edges: []
@@ -311,6 +395,11 @@ TextureImporter:
     nameFileIdTable:
       MultipleMapBuildings_: -30656880
       MultipleMapBuildings_1: -944531630
+      MultipleMapBuildings_1_0: -26901932
+      MultipleMapBuildings_1_1: 1875459594
+      MultipleMapBuildings_1_2: 436154376
+      MultipleMapBuildings_1_3: 557423443
+      MultipleMapBuildings_1_4: 560255181
       MultipleMapBuildings_2: -81444867
       MultipleMapBuildings_3: 1229805881
       MultipleMapBuildings_4: 283990815
