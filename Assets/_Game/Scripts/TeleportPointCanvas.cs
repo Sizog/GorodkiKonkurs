@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class TeleportPointCanvas : MonoBehaviour
 {
@@ -8,11 +9,19 @@ public class TeleportPointCanvas : MonoBehaviour
     [SerializeField] private BuildingsSpawner buildingsSpawner;
     [SerializeField] private GameObject spawnBatCapsule;
     [SerializeField] private GameObject spawnBatPoint;
-    [SerializeField] private GameObject currentBatCapsule;
+    private GameObject currentBatCapsule;
+    [SerializeField] private InputActionReference[] onSpawnBatCapsule;
 
     void Start()
     {
         if (buildingsSpawner == null) FindObjectOfType<BuildingsSpawner>();
+        foreach (var action in onSpawnBatCapsule)
+        {
+            if (action.action != null)
+            {
+                action.action.performed += (InputAction.CallbackContext callbackContext) => SpawnBatCapsule();
+            }
+        }
     }
 
     public void TogglePanel(bool isOpen)

@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MultipleMapBuildings_
+      name: MultipleMapBuildings_8
       rect:
         serializedVersion: 2
         x: 256
@@ -278,11 +278,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MultipleMapBuildings_1_0
+      name: MultipleMapBuildings_12
       rect:
         serializedVersion: 2
-        x: 442
-        y: 251
+        x: 515
+        y: 290
         width: 209
         height: 123
       alignment: 0
@@ -299,7 +299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MultipleMapBuildings_1_1
+      name: MultipleMapBuildings_10
       rect:
         serializedVersion: 2
         x: 30
@@ -320,12 +320,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MultipleMapBuildings_1_2
+      name: MultipleMapBuildings_11
       rect:
         serializedVersion: 2
         x: 272
-        y: 197
-        width: 247
+        y: 198
+        width: 245
         height: 205
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -341,28 +341,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MultipleMapBuildings_1_3
-      rect:
-        serializedVersion: 2
-        x: 520
-        y: 287
-        width: 203
-        height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93548d011e6e7f343959a0df8250b240
-      internalID: 557423443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MultipleMapBuildings_1_4
+      name: MultipleMapBuildings_9
       rect:
         serializedVersion: 2
         x: 450
@@ -393,20 +372,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MultipleMapBuildings_: -30656880
       MultipleMapBuildings_1: -944531630
-      MultipleMapBuildings_1_0: -26901932
-      MultipleMapBuildings_1_1: 1875459594
-      MultipleMapBuildings_1_2: 436154376
+      MultipleMapBuildings_10: 1875459594
+      MultipleMapBuildings_11: 436154376
+      MultipleMapBuildings_12: -26901932
       MultipleMapBuildings_1_3: 557423443
-      MultipleMapBuildings_1_4: 560255181
       MultipleMapBuildings_2: -81444867
       MultipleMapBuildings_3: 1229805881
       MultipleMapBuildings_4: 283990815
       MultipleMapBuildings_5: 1031757691
       MultipleMapBuildings_6: 1071310699
       MultipleMapBuildings_7: -57115776
-      MultipleMapBuildings_8: 444608109
+      MultipleMapBuildings_8: -30656880
+      MultipleMapBuildings_9: 560255181
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
